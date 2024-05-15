@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>LabJUV</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="./src/css/style.css">
+ 
+</head>
+<body onload="onLoad()"> 
+  <header
+      id="myNavbar"
+      class="navbar navbar-expand-lg glass-effect">
+
+      <a class="navbar-brand" href="">
+        <img src="./src/assets/LogoLabJUV.png" width=182px" height="46px"
+        alt="logo">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <nav class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav align-items-end">
+          <li class="nav-item active">
+            <a class="nav-link" aria-current="page" href="#">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Saúde</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Saúde Mental</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Apoio</a>
+          </li>
+        </ul>
+      </nav>
+
+      
+    </header>
+
+  <main>
+    <section id="hero-container" class="container-fluid ">
+      <div>
+        <h1>Sua saúde importa!</h1>
+        <p>Este é um projeto dedicado à conscientização e educação sobre <br> saúde e fornecer recursos, informações e histórias inspiradoras <br> para promover o bem-estar físico e mental.</p>
+        <a href="#" class="btn btn-sm custom-btn">Apoio</a>      </div>
+      <div>
+        <img src="" alt="imagem demonstrativa hero section">
+      </div>
+    </section>
+
+    <section id="form-container" class="d-flex flex-wrap justify-content-center bg-primary p-5">
+      <div class="d-flex flex-column align-items-center text-center">
+        <h2>Mande sua pergunta ou relato!</h2>
+        <p>É completamente anonimo.</p>
+        <form id="menssage-form">
+          <textarea name="input-message" id="input-message" class="form-control mb-3 " cols="30" rows="10" wrap="soft" style="resize:none;"></textarea>
+        </form>
+        <button onclick="onLoad()" class="btn btn-light px-5">Enviar Mensagem</button>
+      </div>
+
+      <div id="questions-container" class="text-center">
+        <h2>Perguntas e relatos</h2>
+        <div class="row p-2">
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body justify-content-center">
+                <img src="https://img.elo7.com.br/product/zoom/4E2B2B4/manoel-tse-gomes-canecadocanetazul.jpg" alt="" class="img-fluid pb-2" style="max-width:50px;">
+                <p class="card-text">Vou tacar bomba atomica meus amigosaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="about-container" class="container">
+      <div><img src="" alt="imagem exemplo seção de sobre o projeto"></div>
+      <div>
+        <h2>Sobre o projeto</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores, odio. At pariatur ut eius aut voluptas impedit beatae officia nam error dicta quasi aliquam ab, minus expedita cumque ex provident non doloremque. Tempore nemo placeat animi. Veniam eligendi accusantium libero numquam ut. Harum nostrum, voluptates animi minima quod dolorem eum!</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <span>Cuide-se!</span>
+    <span>© 2024 Laboratório Juventudes. Todos os direitos reservados.</span>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/appwrite@14.0.0"></script>
+  <script src="./src/js/script.js"></script>
+</body>
+</html>

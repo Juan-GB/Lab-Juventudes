@@ -1,0 +1,96 @@
+.d-height {
+  height: 71vh;
+}
+
+.glass-effect {
+  background-color: #5E98FF;
+  backdrop-filter: blur(10px);
+}
+
+#navbarNav a {
+  text-decoration: none;
+  color: white;
+  border: 3px solid white;
+  border-radius: 36px;
+  text-align: center;
+}
+
+#navbarNav a:hover {
+  background-color: rgb(255, 255, 255);
+  color: #5E98FF;
+}
+
+.active {
+  background-color: white;
+  border-radius: 36px;
+}
+.active > * {
+  color: #5E98FF !important;
+}
+
+.navbar .nav-item {
+  margin-right: 20px; 
+  width: 150px;
+  align-items: center;
+}
+
+
+#form-container > div {
+  width: 50%;
+  min-width: 250px;
+}
+@media (max-width: 950px) {
+  #form-container > div {
+    width: 100% !important;
+  }
+}
+
+#menssage-form {
+  max-width: 350px;
+  width: 100%;
+}
+
+#questions-container {
+  overflow: hidden scroll;
+}
+#questions-container > div {
+  row-gap: 20px;
+}
+#questions-container > div > div > .card {
+  max-height: 120px;
+  min-height: 200px;
+
+  overflow-y: hidden;
+}
+
+
+#hero-container {
+  background-color: #95CDEC;
+  width: 100vw;
+  height: 100vh; 
+  justify-content: center;
+  padding-top: 220px;
+  padding-left: 135px;
+  
+}
+
+h1 {
+  font-size: 72px;
+  font-weight: 632;
+  color: #37426B;
+}
+
+.btn.custom-btn {
+  background-color: #37426B; 
+  color: #ffffff; 
+  border-radius: 5px; 
+  padding: 10px 20px;
+  text-align: center;
+  height: 45px;
+  width: 150px;
+  font-size: auto;
+}
+.btn.custom-btn:hover {
+  background-color: #0056b3; 
+  color: #ffffff;
+}
